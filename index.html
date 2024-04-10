@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <!-- Se supone que poner enlaces de navegación en una lista es la mejor práctica para escribir el código semántico, ya que permite a los lectores de pantalla hacer una pausa entre cada enlace en lugar de leer todos los enlaces como una oración. -->
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff"
+                >Los preferidos de nuestro lectores</a
+              >
+            </li>
+            <li>
+              <a class="nav__link">Eventos</a>
+            </li>
+            <li>
+              <a class="nav__link">Conviértete en miembro</a>
+            </li>
+            <li>
+              <a class="nav__link">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              Bienvenidos a la biblioteca Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
+              y amplía tus conocimientos sobre desarrollo, o simplemente ven a
+              trabajar o estudiar con nosotros. ¡Este es un lugar genial para
+              estudiantes!
+            </p>
+          </div>
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="staff" id="staff">
+          <h2 class="staff__title">Los preferidos de nuestros lectores</h2>
+          <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Demian</h3>
+                <p class="card__text">
+                  El joven Emil Sinclair se siente dividido entre sus impulsos y
+                  el mundo ordenado de sus padres. Bajo la influencia de su
+                  amigo Demian, aprende a superar los contrastes y a aceptarse
+                  junto con su lado oscuro. La historia de la juventud de Emil
+                  Sinclair, relata la niñez hasta la madurez de este complicado
+                  personaje.
+                </p>
+                <p class="card__footer">Herman Hesse</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Indigno de ser Humano</h3>
+                <p class="card__text">
+                  Repudiado por su familia tras un intento de suicidio e incapaz
+                  de vivir en armonía con sus hipócritas semejantes, Yozo
+                  malvive como dibujante de historietas y subsiste gracias a la
+                  ayuda de mujeres que se enamoran de él pese a su alcoholismo y
+                  adicción a la morfina.
+                </p>
+                <p class="card__footer">Osamu Dazai</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  Balada de Pájaros Cantores y Serpientes
+                </h3>
+                <p class="card__text">
+                  En el Capitolio se encuentra Coriolanus Snow de dieciocho
+                  años, que se prepara para una oportunidad única: alcanzar la
+                  gloria como mentor de los Juegos. La casa de los Snow, antes
+                  tan influyente, atraviesa tiempos difíciles, y su destino
+                  depende de que Coriolanus consiga superar a sus compañeros en
+                  ingenio, estrategia y encanto como mentor del tributo que le
+                  sea adjudicado.
+                </p>
+                <p class="card__footer">Suzanne Collins</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  I Want to Die but I Want to Eat Tteokbokki
+                </h3>
+                <p class="card__text">
+                  Baek Sehee es una joven y exitosa directora de redes sociales,
+                  cuando comienza a consultar a un psiquiatra sobre ella. Se
+                  siente persistentemente deprimida, ansiosa, con infinitas
+                  dudas sobre sí misma, pero también muy crítica con los demás.
+                  Oculta bien sus sentimientos y es experta en lograr la
+                  tranquilidad, que exige su estilo de vida. El esfuerzo es
+                  agotador, abrumador y le impide formar relaciones profundas.
+                </p>
+                <p class="card__footer">Baek Se-hee</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
